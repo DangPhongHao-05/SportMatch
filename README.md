@@ -1,10 +1,10 @@
-# 🏟️ Dự án: SportMatch
+# Dự án: SportMatch
 
 **SportMatch** là một ứng dụng di động giúp những người yêu thích thể thao dễ dàng tìm thấy nhau. Bạn có thể bật bản đồ để quét xem xung quanh mình có ai đang tìm người đá bóng, đánh cầu lông hay bóng chuyền không để "nhảy vào" chốt kèo và đi chơi ngay.
 
 ---
 
-## 🌟 Các tính năng chính
+## 1. Các tính năng chính
 
 *   **Đăng nhập nhanh**: Xác thực qua số điện thoại bằng mã OTP thông qua Firebase Authentication.
 *   **Tìm kèo quanh đây**: Xem bản đồ để biết các nhóm hoặc cá nhân nào đang thiếu người ở gần vị trí của bạn (Dự kiến).
@@ -13,7 +13,7 @@
 
 ---
 
-## 🛠️ Công nghệ sử dụng
+## 2. Công nghệ sử dụng
 
 ### Frontend (Mobile App)
 *   **Ngôn ngữ**: Kotlin
@@ -30,7 +30,7 @@
 
 ---
 
-## 📂 Cấu trúc thư mục
+## 3. Cấu trúc thư mục
 
 ### Android Project
 ```text
@@ -39,8 +39,9 @@ com.example.sportmatch/
 ├── ui/                 # Giao diện (Màn hình Login, OTP, Bản đồ, Chat)
 ├── navigation/         # Quản lý luồng chuyển màn hình
 └── MainActivity.kt     # Điểm khởi chạy ứng dụng chính
-Backend Project (.NET)
-Plaintext
+
+### Backend Project (.NET)
+```text
 SportMatchAPI/
 ├── Controllers/        # Xử lý các yêu cầu HTTP (Auth, Location, Chat)
 ├── Data/               # Cấu hình kết nối Cơ sở dữ liệu (AppDbContext)
@@ -48,7 +49,7 @@ SportMatchAPI/
 ├── DTO/                # Các mẫu dữ liệu truyền tải giữa App và API
 └── Program.cs          # Cấu hình khởi tạo dịch vụ và Middleware
 
-👥 Nhóm phát triển:
+### Nhóm phát triển:
 Đặng Phong Hào
 Bùi Tấn Khang
 Võ Thị Kiều Trang
