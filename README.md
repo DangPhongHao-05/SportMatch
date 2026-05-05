@@ -39,6 +39,7 @@ com.example.sportmatch/
 ├── ui/                 # Giao diện (Màn hình Login, OTP, Bản đồ, Chat)
 ├── navigation/         # Quản lý luồng chuyển màn hình
 └── MainActivity.kt     # Điểm khởi chạy ứng dụng chính
+```
 
 ### Backend Project (.NET)
 ```text
@@ -48,7 +49,7 @@ SportMatchAPI/
 ├── Models/             # Định nghĩa các bảng dữ liệu hệ thống
 ├── DTO/                # Các mẫu dữ liệu truyền tải giữa App và API
 └── Program.cs          # Cấu hình khởi tạo dịch vụ và Middleware
-
+```
 ### Nhóm phát triển:
 Đặng Phong Hào
 Bùi Tấn Khang
