@@ -50,7 +50,8 @@ SportMatchAPI/
 ├── DTO/                # Các mẫu dữ liệu truyền tải giữa App và API
 └── Program.cs          # Cấu hình khởi tạo dịch vụ và Middleware
 ```
+---
 ### Nhóm phát triển:
-Đặng Phong Hào
-Bùi Tấn Khang
-Võ Thị Kiều Trang
+* Đặng Phong Hào
+* Bùi Tấn Khang
+* Võ Thị Kiều Trang
